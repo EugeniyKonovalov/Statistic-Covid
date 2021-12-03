@@ -1,0 +1,43 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  font-family: "Roboto";
+}
+input::-webkit-input-placeholder {
+  color: #b2b2b2 !important;
+}
+.form-control:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: 0 none !important;
+}
+.form-control[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.modal-content {
+  border-radius: 20px;
+  border: none;
+}
+.modal-dialog {
+  max-width: 600px;
+  max-height: 400px;
+}
+
+.page-link {
+  z-index: 3;
+  color: #2196f3 !important;
+}
